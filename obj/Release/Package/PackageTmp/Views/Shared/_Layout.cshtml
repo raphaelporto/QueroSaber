@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+    
+</head>
+<body>
+    <div class="page">
+        <div id="header-wrap">
+        <div id="header">
+            <div id="title">
+                <a href="#" title="Quero saber, parlamentar!"><h1>quero saber, <span style="color:#999; font-size : 14px;">parlamentar!</span></h1></a>
+            </div>
+            
+            <div id="twitterlogin">
+                <a href="/Conta/Login" >
+                     <img src="@Url.Content("~/Content/Images/twittersignin.png")" alt="Registre-se com o twitter" />
+                </a>
+                
+            </div>
+            </div>
+        </div>
+        <div id="navigation">
+            <div id="menucontainer">
+                <ul id="menu">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            @RenderBody()
+        </div>
+        <div id="footer">
+        </div>
+    </div>
+</body>
+</html>

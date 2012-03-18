@@ -1,0 +1,70 @@
+﻿body {
+    font-family: Tahoma;
+    margin: 0 auto;
+}
+#header-wrap {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 40px;
+    z-index: 999;
+    background-color: #00500F;
+    -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.25),0 -1px 0 rgba(0,0,0,0.1) inset;
+    box-shadow:  1px 3px rgba(255,200,0,0.50),0 -1px 0 rgba(255,200,0,0.1) inset;
+    
+}
+
+#header {
+    width: 900px;
+    margin: 0 auto;
+    vertical-align: middle;
+    color: #FFF;
+}
+
+#header a {
+    text-decoration: none;
+    color: #FFF;
+}
+#header h1 {
+    color: #fff;
+    font-size: 20px;
+    padding: 0;
+    margin: 7px 0 0 0;
+    vertical-align: middle;
+}
+#title {
+    float: left;
+    vertical-align: middle;
+}
+#twitterlogin {
+    float: right; 
+    margin-top: 9px;
+}
+#navigation {
+    width: 900px;
+    min-height: 20px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#navigation ul {        
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;    
+    list-style:none;
+}
+
+#navigation ul li {        
+    display: inline;
+}
+#navigation ul li a {        
+    padding: 10px;
+    background-color: rgba(255,200,0,0.50);
+}
+
+#main {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
